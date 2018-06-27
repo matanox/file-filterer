@@ -1,4 +1,4 @@
-# a command-line tool for filtering potentially huge files, by lists of terms_a
+## a command-line tool for filtering potentially huge files by lists of terms
 
 ### Usage:
 1. Create a file named `config.json` mimicking the example configuration file 'example-config.json'.
