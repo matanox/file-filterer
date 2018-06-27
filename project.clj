@@ -5,7 +5,9 @@
                 :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                          [template-generator "0.1.0-SNAPSHOT"]
-                         [org.clojure/data.json "0.2.6"]]
+                         [org.clojure/data.json "0.2.6"]
+                         [metosin/scjsv "0.4.1"]
+                         [webjure/json-schema "0.7.4"]]
   :main ^:skip-aot file-filterer.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

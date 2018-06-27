@@ -1,0 +1,13 @@
+{
+  "term-files-path" : "/home/user/data/term-files",
+  "term-file-names" : [
+      "terms_a.csv",
+      "terms_b.csv",
+      "terms_c.csv"
+   ],
+  "input-datasets-path" : "/home/user/data/datasets",
+  "input-dataset-names" :  [
+     {"name" : "enwiki-20180220-pages-articles.cleaned",  "nickname" : "enwiki-20180220"},
+     {"name" : "ruwiki-20180220-pages-articles.cleaned",  "nickname" : "ruwiki-20180220"}],
+  "output-path" : "/home/user/data/output"
+}

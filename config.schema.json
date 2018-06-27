@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "term-files-path": {
+      "type": "string"
+    },
+    "term-file-names": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "input-datasets-path": {
+      "type": "string"
+    },
+    "input-dataset-names": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "nickname": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "nickname"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "nickname": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "nickname"
+          ]
+        }
+      ]
+    },
+    "output-path": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "term-files-path",
+    "term-file-names",
+    "input-datasets-path",
+    "input-dataset-names",
+    "output-path"
+  ]
+}
