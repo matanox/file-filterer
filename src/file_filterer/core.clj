@@ -4,7 +4,7 @@
       [puget.printer :refer [cprint]]
       [clojure.data.json :as json]
       [scjsv.core :as json-schema]
-      [template-generator.executors.search.terms :refer :all])
+      [temp-text-box.executors.search.terms :refer :all])
   (:gen-class))
 
 (def config-file "config.json")
@@ -27,7 +27,7 @@
                 (str (:term-files-path config) "/" term-file-name)
                 (str (:input-datasets-path config) "/" (:name input-datasets))
                 (:nickname input-datasets)
-                (str (:output-path config) "/" (:nickname input-datasets) "." (:term-file-name config))))
+                (str (:output-path config) "/" (:nickname input-datasets) "." term-file-name)))
 
        (shutdown-agents))))
 
