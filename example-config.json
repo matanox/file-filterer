@@ -1,4 +1,5 @@
 {
+  "min-occurrences" : 1,
   "term-files-path" : "/home/user/data/term-files",
   "term-file-names" : [
       "terms_a.csv",

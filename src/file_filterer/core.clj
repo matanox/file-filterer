@@ -25,6 +25,7 @@
                      input-datasets (:input-dataset-names config)]
             (keywords-filter
                 (str (:term-files-path config) "/" term-file-name)
+                (:min-occurrences config)
                 (str (:input-datasets-path config) "/" (:name input-datasets))
                 (:nickname input-datasets)
                 (str (:output-path config) "/" (:nickname input-datasets) "." term-file-name)))

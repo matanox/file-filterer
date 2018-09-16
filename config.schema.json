@@ -2,6 +2,9 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
+    "min-occurrences": {
+      "type": "integer"
+    },
     "term-files-path": {
       "type": "string"
     },
